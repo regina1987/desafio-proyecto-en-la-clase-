@@ -14,73 +14,16 @@
 
   <body class="homepage is-preload">
 
-      <!-- Header -->
-        <div id="header">
+    <%= render 'layouts/file/header' %>
+
+      
 
 
-      					<!-- Nav -->
-      						<nav id="nav" class ='nav <img  src="header.jpg" alt="header"> ' >
-
-      							<ul>
-      								<li> 	<a href="<%= pages_index_path %>"> Home</a></li>
-                      <li> <a href="<%= pages_test_path %>"> Dropdown</a></li>
-                      <li><a href="<%= users_login_path %>">LeftSidebar</a></li>
-                      <li><a href="<%= pages_about_us_path %>">RightSidebar</a></li>
-                      <li><a href="<%= pages_index_path %>">No Sidebar</a></li>
-      							</ul>
-      						</nav>
-
-      				</div>
+    <%= render 'layouts/file/main' %>
+      <%= render 'layouts/file/footer' %>
+      <%= render 'layouts/file/scripts' %>
 
 
-
-
-
-      			<!-- Main -->
-                      <%= yield %>
-      				<div class="wrapper style2">
-
-      					<article id="main" class="container special">
-      						<a href="#" class="image featured"><img src="../assets/images/pic06.jpg" alt="" /></a>
-
-
-      						<p>
-      							Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-      							posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-      							sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam
-      							mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan
-      							lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-      							consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-      							interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-      							natoque aenean scelerisque.
-      						</p>
-
-      					</article>
-
-      				</div>
-
-
-      			<!-- Footer -->
-      				<div id="footer">
-      					<div class="container">
-      						<div class="row">
-
-      							<!-- Tweets -->
-      								<section class="col-4 col-12-mobile">
-
-      								</section>
-
-
-
-      		<!-- Scripts -->
-      			<script src="assets/js/jquery.min.js"></script>
-      			<script src="assets/js/jquery.dropotron.min.js"></script>
-      			<script src="assets/js/jquery.scrolly.min.js"></script>
-      			<script src="assets/js/jquery.scrollex.min.js"></script>
-      			<script src="assets/js/browser.min.js"></script>
-      			<script src="assets/js/breakpoints.min.js"></script>
-      			<script src="assets/js/util.js"></script>
-      			<script src="assets/js/main.js"></script>
 
 
   </body>
