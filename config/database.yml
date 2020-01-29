@@ -21,7 +21,7 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: postresql
+  adapter: postgresql
   database: second_app_production
-  pool: <%= ENV.fetch ('RAILS_MAX_THREADS') {5}%>
+  pool: <%= ENV.fetch('RAILS_MAX_THREADS') {5}%>
   encoding: unicode
